@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS icd (
+  icd_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  -- ik TEXT,
+  -- entlassender_standort TEXT,
+  entgeltbereich TEXT,
+  -- pat_nr TEXT,
+  pat_neu TEXT,
+  -- kh_internes_kennzeichen TEXT,
+  id_neu TEXT,
+  diagnoseart TEXT,
+  icd_version INTEGER,
+  icd_kode TEXT,
+  lokalisation TEXT,
+  diagnosensicherheit TEXT,
+  sekundaer_kode TEXT,
+  lokalisation_1 TEXT,
+  diagnosensicherheit_1 TEXT,
+  icd_klarname TEXT,
+  icd_3stellig TEXT,
+  icd_3stellig_klarname TEXT,
+  drg TEXT,
+  aufn_datum DATETIME, -- %-m/%-d/%Y
+  five_ops NUMERIC,
+  gr_ops TEXT,
+  age INTEGER
+)
