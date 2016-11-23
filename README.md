@@ -10,7 +10,7 @@ Then move the sample data files to a new folder called `data` and run the indivi
 
 ## Working on your subtask
 
-It makes sense for the supgroups to work on their own branches. If you want to create a branch for your current task just write:
+It makes sense for the subgroups to work on their own branches. If you want to create a branch for your current task just write:
 
     git checkout -b exploration/[patient/lab/general...]
 
